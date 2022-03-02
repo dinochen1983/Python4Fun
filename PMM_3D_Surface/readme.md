@@ -7,4 +7,4 @@
 **intro:** Draw Column 3D PMM Surface\
 
 screen shot
-![enter image description here](https://github.com/dinochen1983/Python4Fun/blob/main/ColumnPMCurve/fig2.png?raw=true)
+![enter image description here](https://github.com/dinochen1983/Python4Fun/blob/main/PMM_3D_Surface/cimages11.png?raw=true)
