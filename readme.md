@@ -2,4 +2,4 @@
 ColumnPMCurve\
 DrawBingDwenDwen\
 GenMaze\
-SquirdGame\
+SquirdGame
