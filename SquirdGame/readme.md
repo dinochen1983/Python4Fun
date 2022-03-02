@@ -6,4 +6,4 @@
 **website:** dinochen.com\
 
 screen shot
-![enter image description here](https://raw.githubusercontent.com/dinochen1983/SquidGame1/main/screenShot.png)
+![enter image description here](https://github.com/dinochen1983/Python4Fun/blob/main/SquirdGame/screenShot.png?raw=true)
