@@ -6,5 +6,5 @@
 **website:** dinochen.com\
 **intro:** python method to gen and show OpenSEES Structure Deformation Animation\
 
-screen shot
-![enter image description here](https://github.com/dinochen1983/Python4Fun/blob/main/ColumnPMCurve/fig2.png?raw=true)
+screen shot\
+![enter image description here](https://github.com/dinochen1983/Python4Fun/blob/main/Opensees_Disp_Animation_Python/animation.gif?raw=true)
