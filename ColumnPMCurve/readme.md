@@ -1,5 +1,5 @@
 **Python Draw Column P-M Curve**\
-**code:** python, matplotlib\
+**code:** python, matplotlib, wx(GUI form)\
 **project:** Column P-M Curve\
 **code by:** Dr Dino Chen\
 **Email:** dinochen1983@qq.com\
