@@ -7,5 +7,5 @@
 **intro:** Show procedure of draw 2d image\
 
 screen shot
-![enter image description here](https://github.com/dinochen1983/Python4Fun/blob/main/ColumnPMCurve/fig2.png?raw=true)
+![enter image description here](https://github.com/dinochen1983/Python4Fun/blob/main/DrawBingDwenDwen/Panda.png?raw=true)
 
