@@ -7,4 +7,4 @@
 **intro:** Column Axial-Bending Moment intereaction Curve\
 
 screen shot
-![enter image description here](https://raw.githubusercontent.com/dinochen1983/Python4Fun/ColumnPMCurve/fig.png)
+![enter image description here](https://raw.githubusercontent.com/dinochen1983/Python4Fun/blob/main/ColumnPMCurve/fig2.png?raw=true)
