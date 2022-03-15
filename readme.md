@@ -10,4 +10,4 @@ Opensees_Disp_Animation_Python(Structural)
 
 PMM_3D_Surface(Structural)
 
-SquirdGame(Game)
+SquidGame(Game)
