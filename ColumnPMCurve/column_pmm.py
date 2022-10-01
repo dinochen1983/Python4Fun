@@ -30,7 +30,7 @@ def Calculation():
     ratio = area*2/(b*h)*100
     plt.style.use('ggplot')
     fig = plt.figure()
-    fig.canvas.set_window_title("Column PM curve")
+    fig.canvas.manager.set_window_title("Column PM curve")
     plt.plot(mm,pp,marker='o')
     plt.xlabel('Moment')
     plt.ylabel('Axial_Force')
@@ -90,7 +90,7 @@ class MyFrame(wx.Frame):
 
 
         image = wx.Image('fig.png', wx.BITMAP_TYPE_ANY)
-        self.imageBitmap = wx.StaticBitmap(panel, wx.ID_ANY, wx.BitmapFromImage(image),pos=(220, 40), size=(350,350) )
+        self.imageBitmap = wx.StaticBitmap(panel, wx.ID_ANY, wx.BitmapFromImage(image),pos=(220, 40), size=(650,500) )
         ##self.imageBitmap.Bind(wx.EVT_MOTION, self.OnMouseMove)
         self.imageBitmap.Bind(wx.EVT_PAINT, self.OnPaint)
 
