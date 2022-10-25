@@ -59,7 +59,7 @@ def draw_grid():
     sx = 250
     sy = 250
     sz = maze_size/ng
-    im01 =Image.open("image1.jpg")
+    im01 =Image.open("./image1.jpg")
     draw =ImageDraw.Draw(im01)
     centerx = im01.size[0]/2
     centery = im01.size[1]/2
@@ -203,31 +203,32 @@ class MyFrame(wx.Frame):
         #windows form size 800x800#
         wx.Frame.__init__(self,  parent, id,  title="Gen Maze", pos=(50,50), size=(650,500))
 
-        panel = wx.Panel(self)  # 创建面板
+        self.panel = wx.Panel(self)  # 创建面板
 
         #Delphi The Label
-        self.title = wx.StaticText(panel, label="Gen Maze Size", pos=(20, 20))
+        self.title = wx.StaticText(self.panel, label="Gen Maze Size", pos=(20, 20))
         #Delphi The EditBox
-        self.edit1 = wx.TextCtrl(panel, pos=(20, 40), size=(100, 25), style=wx.TE_LEFT)
+        self.edit1 = wx.TextCtrl(self.panel, pos=(20, 40), size=(100, 25), style=wx.TE_LEFT)
 
         #Delphi Button
-        self.bt_confirm = wx.Button(panel, label='Gen Maze', pos=(20, 80))  
+        self.bt_confirm = wx.Button(self.panel, label='Gen Maze', pos=(20, 80))  
         self.bt_confirm.Bind(wx.EVT_BUTTON, self.OnclickButton)
-        self.bt_cancel = wx.Button(panel, label='Close', pos=(20, 110)) 
+        self.bt_cancel = wx.Button(self.panel, label='Close', pos=(20, 110)) 
         self.bt_cancel.Bind(wx.EVT_BUTTON, self.OnclickCloseButton)
         #Delphi statusbar
         self.statusbar = self.CreateStatusBar(1)
         self.statusbar.SetStatusText('Gen Maze Developed by dinochen.com',0)
 
         #Image
-        image = wx.Image('image1.jpg', wx.BITMAP_TYPE_ANY)
-        self.imageBitmap = wx.StaticBitmap(panel, wx.ID_ANY, wx.BitmapFromImage(image),pos=(150, 30), size=(400,400) )
+        image = wx.Image('./image1.jpg', wx.BITMAP_TYPE_ANY)
+        bmp = wx.Bitmap(image)
+        self.imageBitmap = wx.StaticBitmap(self.panel, wx.ID_ANY, bmp,pos=(150, 30), size=(400,400) )
         self.imageBitmap.Bind(wx.EVT_PAINT, self.OnPaint)
 
     def OnPaint(self,event):
         ##  
         dc = wx.PaintDC(self.imageBitmap)
-        dc.DrawBitmap(wx.Bitmap("image2.jpg"),0,0,True) 
+        dc.DrawBitmap(wx.Bitmap("./image2.jpg"),0,0,True) 
 
 #############################
 ##                         ##
