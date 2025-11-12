@@ -13,3 +13,5 @@ PMM_3D_Surface(Structural)
 SquidGame(pyGame)
 
 draw_City(use Python Turtle)
+
+Manim_Structural(stru animation)
