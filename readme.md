@@ -15,3 +15,5 @@ SquidGame(pyGame)
 draw_City(use Python Turtle)
 
 Manim_Structural(stru animation)
+
+Gen_Stru_OpenBIM(OpenBIM)
